@@ -59,7 +59,7 @@ class SyntaxViewState extends State<SyntaxView> {
                                             text: TextSpan(
                                                 style: TextStyle(
                                                     fontFamily: 'monospace',
-                                                    fontSize: fontSize,
+                                                    fontSize: widget.fontSize,
                                                     color:
                                                         (widget.syntaxTheme ??
                                                                 SyntaxTheme
@@ -73,7 +73,7 @@ class SyntaxViewState extends State<SyntaxView> {
                                       text: TextSpan(
                                         style: TextStyle(
                                             fontFamily: 'monospace',
-                                            fontSize: fontSize),
+                                            fontSize: widget.fontSize),
                                         children: <TextSpan>[
                                           getSyntax(widget.syntax,
                                                   widget.syntaxTheme)
@@ -88,7 +88,7 @@ class SyntaxViewState extends State<SyntaxView> {
                                   text: TextSpan(
                                     style: TextStyle(
                                         fontFamily: 'monospace',
-                                        fontSize: fontSize),
+                                        fontSize: widget.fontSize),
                                     children: <TextSpan>[
                                       getSyntax(
                                               widget.syntax, widget.syntaxTheme)
