@@ -10,13 +10,14 @@ class SyntaxView extends StatefulWidget {
       @required this.syntax,
       this.syntaxTheme,
       this.withZoom,
-      this.withLinesCount});
+      this.withLinesCount, this.fontSize = 12.0});
 
   final String code;
   final Syntax syntax;
   final bool withZoom;
   final bool withLinesCount;
   final SyntaxTheme syntaxTheme;
+  final double fontSize;
 
   @override
   State<StatefulWidget> createState() => SyntaxViewState();
@@ -58,7 +59,7 @@ class SyntaxViewState extends State<SyntaxView> {
                                             text: TextSpan(
                                                 style: TextStyle(
                                                     fontFamily: 'monospace',
-                                                    fontSize: 12.0,
+                                                    fontSize: fontSize,
                                                     color:
                                                         (widget.syntaxTheme ??
                                                                 SyntaxTheme
@@ -72,7 +73,7 @@ class SyntaxViewState extends State<SyntaxView> {
                                       text: TextSpan(
                                         style: TextStyle(
                                             fontFamily: 'monospace',
-                                            fontSize: 12.0),
+                                            fontSize: fontSize),
                                         children: <TextSpan>[
                                           getSyntax(widget.syntax,
                                                   widget.syntaxTheme)
@@ -87,7 +88,7 @@ class SyntaxViewState extends State<SyntaxView> {
                                   text: TextSpan(
                                     style: TextStyle(
                                         fontFamily: 'monospace',
-                                        fontSize: 12.0),
+                                        fontSize: fontSize),
                                     children: <TextSpan>[
                                       getSyntax(
                                               widget.syntax, widget.syntaxTheme)
