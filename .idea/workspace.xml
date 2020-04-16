@@ -17,110 +17,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1749229770">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="LICENSE" value="1" />
-          <entry key="dart" value="26" />
-          <entry key="md" value="1" />
-          <entry key="txt" value="3" />
-          <entry key="yaml" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Dart" value="26" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="YAML" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dart" value="4757" />
-          <entry key="md" value="39" />
-          <entry key="txt" value="17" />
-          <entry key="yaml" value="192" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Dart" value="4757" />
-          <entry key="PLAIN_TEXT" value="56" />
-          <entry key="YAML" value="192" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-637631846">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.open.time.27" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cpt" value="1" />
-          <entry key="dart" value="58" />
-          <entry key="h" value="1" />
-          <entry key="java" value="4" />
-          <entry key="m" value="1" />
-          <entry key="md" value="12" />
-          <entry key="png" value="5" />
-          <entry key="xcconfig" value="1" />
-          <entry key="yaml" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Concept" value="1" />
-          <entry key="Dart" value="58" />
-          <entry key="Image" value="5" />
-          <entry key="JAVA" value="4" />
-          <entry key="Markdown" value="7" />
-          <entry key="ObjectiveC" value="2" />
-          <entry key="PLAIN_TEXT" value="6" />
-          <entry key="YAML" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dart" value="1752" />
-          <entry key="h" value="1" />
-          <entry key="java" value="1" />
-          <entry key="m" value="1" />
-          <entry key="md" value="728" />
-          <entry key="txt" value="84" />
-          <entry key="xcconfig" value="1" />
-          <entry key="yaml" value="100" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Dart" value="1753" />
-          <entry key="JAVA" value="1" />
-          <entry key="Markdown" value="466" />
-          <entry key="ObjectiveC" value="2" />
-          <entry key="PLAIN_TEXT" value="346" />
-          <entry key="YAML" value="100" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
@@ -228,6 +124,7 @@
     <option name="width" value="907" />
     <option name="height" value="1013" />
   </component>
+  <component name="ProjectId" id="1adHQYCpKi2z11b5XJpizUZ1yQU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -309,10 +206,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Flutter Test.tests in flutter_syntax_view_test.dart" />
       <item itemvalue="Dart Command Line App.main.dart" />
       <item itemvalue="Flutter.main.dart" />
       <item itemvalue="Flutter.flutter_syntax_view_example.dart" />
+      <item itemvalue="Flutter Test.tests in flutter_syntax_view_test.dart" />
     </list>
     <recent_temporary>
       <list>
