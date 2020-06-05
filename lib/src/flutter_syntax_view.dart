@@ -69,6 +69,7 @@ class SyntaxViewState extends State<SyntaxView> {
                                     ]),
                                     VerticalDivider(width: 5),
                                     RichText(
+                                      softWrap: false,
                                       textScaleFactor: textScaleFactor,
                                       text: TextSpan(
                                         style: TextStyle(
@@ -84,6 +85,7 @@ class SyntaxViewState extends State<SyntaxView> {
                                   ],
                                 )
                               : RichText(
+                                softWrap: false,
                                   textScaleFactor: textScaleFactor,
                                   text: TextSpan(
                                     style: TextStyle(
